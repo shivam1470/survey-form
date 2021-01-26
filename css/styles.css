@@ -1,5 +1,10 @@
+.bdy {
+    background-color: #999999;
+    box-sizing: border-box;
+}
+
 #title {
-    position: absolute;
+    position: relative;
 width: 250px;
 height: 41px;
 
@@ -8,8 +13,138 @@ font-style: normal;
 font-weight: normal;
 font-size: 36px;
 line-height: 40px;
-color: #FFFFFF;
+color:black;
+text-align: center;
 }
 #Name {
-    color: blueviolet;
+    color: black;
+   
+width: 140px;
+height: 23px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
 }
+
+#Email {
+    
+width: 134px;
+height: 25px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+color: black;
+
+}
+
+#Age {
+    
+width: 191px;
+height: 39px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+color: black;
+}
+#Location {
+   
+width: 191px;
+height: 39px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+}
+#qualification {
+    
+width: 206px;
+height: 66px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+}
+#Current {
+   
+width: 176px;
+height: 32px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+}
+#happy {
+   
+width: 403px;
+height: 27px;
+
+font-family: Courier Prime;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+}
+input {
+    width: 100%;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  border-radius: 4px;
+  resize: horizontal;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  border-radius: 4px;
+  }
+  input[type=date] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  border-radius: 4px;
+  }
+  select {
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 4px;
+    margin: 8px 0;
+    background-color:white;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  border-radius: 4px;
+  }
+  input:focus {
+    border: 3px solid #555;
+  }
+  

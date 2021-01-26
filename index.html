@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bdy">
+    <form>
+        <div>
+            <div>
+                <h1 id="title"> Survey-Form</h1>
+
+            </div>
+            <div>
+                <p id="Name"> Name:
+                    <input type="text" placeholder="your name">
+                </p>
+            </div>
+            <div>
+                <p id="Email"> Email:
+                    <input type="email" placeholder="your email">
+                </p>
+            </div>
+            <div>
+                <p id="Age"> Age:
+                    <input type="date" placeholder="your age">
+                </p>
+            </div>
+            <div>
+                <p id="Location"> Location:
+                    <input type="text" placeholder="your location">
+                </p>
+            </div>
+            <div>
+                <p id="qualification"> Qualification:
+                    <input type="text" placeholder="Ex: post-graduation">
+                </p>
+            </div>
+            <div>
+                <p> Current job:
+                </p>
+                <form>
+                    <select id="Current" name="Current job">
+                        <option value="st">Student</option>
+                        <option value="job">Job</option>
+                        <option value="bu">Business</option>
+                    </select>
+                </form>
+
+            </div>
+            <div>
+                <p id="happy"> Are you happy with your job:</p>
+                <form>
+                    <input type="radio" id="YES" name="option" value="YES">
+                    <label for="YES">YES</label><br>
+                    <input type="radio" id="NO" name="option" value="NO">
+                    <label for="NO">YES</label><br>
+
+                </form>
+            </div>
+
+            <button type="button" onclick="alert('Your form is submitted!')">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
